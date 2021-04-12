@@ -1,0 +1,22 @@
+Navigate to " \{ApplicationURL\}"
+Click Iniciar Sesion span
+Click login_nickname_usuario Textbox
+Type "\{usuario_admin\}" in login_nickname_usuario Textbox
+Click login_contrasena_usuario Textbox
+Type "{password_admin}" in login_contrasena_usuario Textbox
+Click INPUT Button
+Click Agregar Plan Button
+Click nombre_plan Textbox
+Type "{nombre_automatico}" in nombre_plan Textbox
+Click info_plan textarea
+Type "{descripcion_automatica}" in info_plan textarea
+Click Agregar Button
+Click DESCRIPCION AUTOMATICA1 TableCell
+Returns true if the text was found and the position
+
+Parametros:
+ApplicationURL="https://idiv-cloud.webcindario.com/"
+descripcion_automatica="DESCRIPCION AUTOMATICA"
+nombre_automatico="PLAN AUTOMATIZADO"
+password_admin="admin"
+usuario_admin="admin@admin.com"
