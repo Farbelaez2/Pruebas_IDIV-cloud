@@ -1,0 +1,333 @@
+id: e94e02a5109838e9e00114
+created: 2021-04-24T17:01:04.779Z
+projectId: QQ9xD5VMGUOESIwHPcugWg
+projectName: Pruebas_Automatizadas
+owner: Cristian Andres
+protocol: 1
+tests:
+  - id: d9c31c525d8cc0c8cc20b0
+    name: Login
+    description: Login
+    platform: Web
+    type: Web
+    driverType: Chrome
+    version: "0.1"
+    creationDate: 2021-04-24T17:01:04.779Z
+    modificationDate: 2021-04-24T17:37:55.786Z
+    settings:
+      appId: 6678mOphPkui0rchHFAB1g
+      automationAssistant: true
+      stepSleepTime: 500
+      stepTimeout: 15000
+      stepSleepTiming: Before
+      stepFailureBehaviorType: Abort
+      stepTakeScreenshotConditionType: Failure
+    application:
+      id: 6678mOphPkui0rchHFAB1g
+      name: Idiv-Cloud
+      url: https://idiv-cloud.webcindario.com/
+      platform: Web
+    steps:
+      - id: 4ea9fbbea6444649dd0364
+        comments: Navigates the specified URL (Auto-generated)
+        enabled: true
+        invertResult: false
+        order: 1
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+        parameterMaps:
+          - direction: Input
+            name: url
+            value: "{{ApplicationURL}}"
+        conditions: []
+        validations: []
+        contexts: []
+      - id: 4dc97c9a5974de9451146a
+        comments: ""
+        enabled: true
+        order: 2
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: bb73b12976bb614be2c56c
+      - id: 4e027b40180e782ebbca87
+        comments: ""
+        enabled: true
+        order: 3
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 090d9201554d61118e0635
+      - id: e6c92e759bf1d7d3aa39f7
+        comments: ""
+        enabled: true
+        order: 4
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: JosueDavid
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 090d9201554d61118e0635
+      - id: 6706ab1c9a3baf0e372c51
+        comments: ""
+        enabled: true
+        order: 5
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: c26c656e5e6748825eb3b9
+      - id: 9b95a6b83437fca327f691
+        comments: ""
+        enabled: true
+        order: 6
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: "1234"
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: c26c656e5e6748825eb3b9
+      - id: faf11953f6973097776dc2
+        comments: ""
+        enabled: true
+        order: 7
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 976c5e6399da6eb509e324
+    parameters:
+      - name: ApplicationURL
+        description: Auto generated application URL parameter
+        value: https://idiv-cloud.webcindario.com/
+        type: Input
+    tags: []
+auxTests: []
+elements:
+  - id: 976c5e6399da6eb509e324
+    name: INPUT
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDc
+      name: Button
+      source: System
+    index: 0
+    locators:
+      - name: XPATH
+        value: //i/input
+        priority: 0
+      - name: XPATH
+        value: /html/body/form/div/div/div/div[3]/i/input
+        priority: 1
+  - id: c26c656e5e6748825eb3b9
+    name: login_contrasena_usuario
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    index: 0
+    locators:
+      - name: CSSSELECTOR
+        value: "#login_contrasena_usuario"
+        priority: 0
+      - name: CSSSELECTOR
+        value: "[name='login_contrasena_usuario']"
+        priority: 1
+      - name: XPATH
+        value: //form/div/div/div/div[2]/div[2]/input
+        priority: 2
+      - name: XPATH
+        value: /html/body/form/div/div/div/div[2]/div[2]/input
+        priority: 3
+  - id: 090d9201554d61118e0635
+    name: login_nickname_usuario
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    index: 0
+    locators:
+      - name: CSSSELECTOR
+        value: "#login_nickname_usuario"
+        priority: 0
+      - name: CSSSELECTOR
+        value: "[name='login_nickname_usuario']"
+        priority: 1
+      - name: XPATH
+        value: //form/div/div/div/div[2]/div[1]/input
+        priority: 2
+      - name: XPATH
+        value: /html/body/form/div/div/div/div[2]/div[1]/input
+        priority: 3
+  - id: bb73b12976bb614be2c56c
+    name: Iniciar Sesion
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjU
+      name: span
+      source: System
+    index: 0
+    locators:
+      - name: XPATH
+        value: //span[. = 'Iniciar Sesion']
+        priority: 0
+      - name: XPATH
+        value: //li//span
+        priority: 1
+      - name: XPATH
+        value: /html/body/header/nav/ul[2]/li/a/span
+        priority: 2
+  - id: e562f2ddac176ae1a40043
+    name: �
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjU
+      name: span
+      source: System
+    index: 0
+    locators:
+      - name: XPATH
+        value: //div[2]//span[. = '�']
+        priority: 0
+      - name: XPATH
+        value: //div[2]/div/div/div[1]/button/span
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[2]/div/div/div[1]/button/span
+        priority: 2
+  - id: 88ed4a6ba54c6ecf23c4ac
+    name: nickname_usuario
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    index: 0
+    locators:
+      - name: CSSSELECTOR
+        value: "#nickname_usuario"
+        priority: 0
+      - name: XPATH
+        value: //div[2]/div/div/div[2]/div[1]/input
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[2]/div/div/div[2]/div[1]/input
+        priority: 2
+  - id: 94943c2701be4c8af7aac6
+    name: DIV
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    index: 0
+    locators:
+      - name: XPATH
+        value: //body/div[2]/div/div
+        priority: 0
+      - name: XPATH
+        value: /html/body/div[2]/div/div
+        priority: 1
+  - id: 119a29aa5ee1023a0c1064
+    name: �nete Ahora!
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDc
+      name: Button
+      source: System
+    index: 0
+    locators:
+      - name: XPATH
+        value: //li/button[. = '�nete Ahora!']
+        priority: 0
+      - name: XPATH
+        value: //li/button
+        priority: 1
+      - name: XPATH
+        value: /html/body/header/nav/ul[1]/li/button
+        priority: 2
+projectParameters: []
+addons: []
